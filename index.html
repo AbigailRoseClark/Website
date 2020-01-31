@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+	<meta charset="utf-8"/>
+<title>
+	AbigailRoseClark.com
+</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'About')">About the Artist</button>
+  <button class="tablinks" onclick="openCity(event, 'Photography')">Photography</button>
+  <button class="tablinks" onclick="openCity(event, 'Visual and Digital Arts')">Visual and Digital Arts</button>
+  <button class="tablinks" onclick="openCity(event, 'Resume')">Resume</button>
+
+</div>
+
+<div id="About" class="tabcontent" style="display:block">
+  <h1>
+        Abigail Rose Clark
+    </h1>
+ <img src="me.jpg" title="photograph of Abigail Clark" class="rotatingimg90">
+    <h2>
+        About the Artist
+    </h2>
+    <p id="p1">
+        Abigail Rose Clark is a visual/ digital artist and photographer who loves representing the world around her in new ways. An artist of many mediums, she practices water color, pen and ink drawings, acrylic, and oil paintings. Her work focusus on the natural world and people who inhabit it. Abigail is currently a student at Georgia Institute of Technology, where she persuing a BS in Literature, Media, and Communication along with a cirtificate in Marketing. When not creating or coding, Abigail loves to hike, read, and drink coffee. She currently lives in Atlanta Georgia. 
+    </p>
+    <a href="https://www.facebook.com/abigail.clark.9083"><img src="facebook.svg" alt="facebook link" class="facebookLink"></a>
+    <a href="https://www.instagram.com/abigail_clark_art/"><img src="instagram.svg" alt="instagram link"class="instagramLink"></a>
+</div>
+
+<div id="Photography" class="tabcontent">
+  <h3>Photography</h3>
+    <img src="DSC00508.JPG" title="photograph of Magnolia" class="photo1" width="400" length="300">
+    <img src="DSC00618.JPG" class="photo2" width="400" length="300">
+    <img src="DSC00751.JPG" class="photo3" width="400" length="300">
+    <img src="DSC00964.JPG" class="photo4" width="400" length="300">
+    <img src="DSC00966.JPG" class="photo5" width="400" length="300">
+    <img src="DSC02027.JPG" class="photo6" width="400" length="300">
+    <img src="DSC02481.JPG" class="photo7" width="400" length="300">
+    <img src="DSC02572.JPG" class="photo8" width="400" length="300">
+    <img src="DSC01419.JPG" class="photo9" width="400" length="300">
+    <img src="DSC00104.JPG" class="photo10" width="400" length="300">
+    <img src="DSC00109.JPG" class="photo11" width="400" length="300">
+    <img src="DSC00152.JPG" class="photo12" width="400" length="300">
+    <img src="DSC00160.JPG" class="photo13" width="400" length="300">
+    <img src="DSC00243.JPG" class="photo14" width="400" length="300">
+    <img src="DSC00502.JPG" class="photo15" width="400" length="300">
+     <img src="DSC00513.JPG" class="photo16" width="400" length="300">
+     <img src="DSC00796.JPG" class="photo17" width="400" length="300">
+     <img src="DSC00515.JPG" class="photo18" width="400" length="300">
+     <img src="DSC01800.JPG" class="photo19" width="400" length="300">
+    <img src="DSC01884.JPG" class="photo20" width="400" length="300">
+    <img src="DSC00620.JPG" class="photo21" width="400" length="300">
+  <p></p> 
+</div>
+
+<div id="Visual and Digital Arts" class="tabcontent">
+  <h3>Visual and Digital Arts</h3>
+   <img src="IMG_5339.jpg" class="paint1" width="300" length="200">
+   <img src="IMG_5573.jpg" class="paint2" width="300" length="200">
+    <img src="IMG_5575.jpg" class="paint3" width="300" length="200">
+    <img src="IMG_5578.jpg" class="paint4" width="300" length="200">
+    <img src="IMG_5583.jpg" class="paint5" width="300" length="200">
+    <img src="IMG_5585.jpg" class="paint6" width="300" length="200">
+    <img src="IMG_5588.jpg" class="paint7" width="300" length="200">
+    <img src="cloud.jpg" class="paint8" width="300" length="200">
+    <img src="IMG_5338.jpg" class="paint9" width="300" length="200">
+    <img src="V.png" class="paint10" width="300" length="200">
+    <img src="VT.png" class="paint11" width="300" length="200">
+    <iframe src="BuzzOn!.pdf#toolbar=0" class="paint12"width="300" height="350">
+    </iframe>
+    <img src="MeD.jpg" class="paint13" width="300" length="200">
+    
+    <p></p>
+</div>
+<div id="Resume" class="tabcontent">
+    <h3>Resume</h3>
+    <iframe src="ResumeNew.pdf" class="r1" width="950" height="1000"></iframe>
+    
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+</body>
+
+</html>

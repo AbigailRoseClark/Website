@@ -1,0 +1,302 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+    font: 100% Arial, Helvetica, sans-serif;
+    padding: 1em 50px;
+    background: White;
+}
+h1 {
+    Font-family: Georgia, "Times New Roman", Times, sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 8 4.5em;
+    color:black;
+    padding: 5px 10px;
+    position: absolute;
+    top:100px;
+    left:150px
+    background: Blue;
+
+}
+.rotatingimg90 {
+  border-radius: 60%;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  width: 500px;
+  height: 450px;
+}
+.facebookLink {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    width: 30px;
+    height: 30px;
+}
+.instagramLink {
+    position: absolute;
+    bottom: 50px;
+    left: 250px;
+    width: 30px;
+    height: 30px;
+}
+
+h2 {
+    Font-family: Georgia, "Times New Roman", Times, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 8 4.5em;
+    color:black;
+    padding: 5px 10px;
+    position: absolute;
+    top:250px;
+    left:740px
+}
+h3 {
+    Font-family: Georgia, "Times New Roman", Times, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 8 4.5em;
+    color:black;
+    padding: 5px 10px;
+    position: absolute;
+    top:100px;
+    left:200px
+}
+#p1 {
+    Font-family: Georgia, "Times New Roman", Times, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    margin: 4 6.5em;
+    color:black;
+    padding: 5px 10px;
+    position: absolute;
+    top:350px;
+    left:740px;
+    text-align: justify;
+    padding-right: 40px;
+}
+.photo1 {
+    position: absolute;
+    top:250px;
+    left: 200px;
+}
+.photo2 {
+    position: absolute;
+    top:250px;
+    left:620px;
+}
+.photo3 {
+    position: absolute;
+    top:250px;
+    left: 1040px;
+    padding-right:100px;
+}
+.photo4 {
+    position: absolute;
+    top:540px;
+    left: 200px;
+}
+.photo5 {
+    position: absolute;
+    top:540px;
+    left: 620px;
+}
+.photo6 {
+    position: absolute;
+    top:540px;
+    left: 1040px;
+}
+.photo7 {
+    position: absolute;
+    top:830px;
+    left: 200px;
+}
+.photo8 {
+    position: absolute;
+    top:830px;
+    left: 620px;
+}
+.photo9 {
+    position: absolute;
+    top:830px;
+    left:1040px;
+}
+.photo10 {
+    position:absolute;
+    top:1120px;
+    left:200px;
+}
+.photo11 {
+    position: absolute;
+    top:1120px;
+    left: 620px;
+}
+.photo12 {
+    position:absolute;
+    top:1120px;
+    left: 1040px;
+}
+.photo13 {
+    position: absolute;
+    top: 1410px;
+    left: 200px;
+}
+.photo14 {
+    position: absolute;
+    top: 1410px;
+    left: 620px;
+}
+.photo15 {
+    position: absolute;
+    top: 1410px;
+    left: 1040px;
+}
+.photo16 {
+    position: absolute;
+    top: 1700px;
+    left: 200px;
+}
+.photo17 {
+    position: absolute;
+    top: 1700px;
+    left: 620px;
+}
+.photo18 {
+    position: absolute;
+    top: 1700px;
+    left: 1040px;
+}
+.photo19 {
+    position: absolute;
+    top: 1990px;
+    left: 200px;
+}
+.photo20 {
+    position: absolute;
+    top: 1990px;
+    left: 620px;
+}
+.photo21 {
+    position: absolute;
+    top: 1990px;
+    left: 1040px;
+     padding-bottom: 250px;
+}
+.paint1 {
+    position: absolute;
+    top:250px;
+    left: 200px;
+}
+.paint2 {
+    position: absolute;
+    top:250px;
+    left: 550px;
+}
+.paint3 {
+    position: absolute;
+    top:250px;
+    left: 900px;
+}
+.paint4 {
+    position: absolute;
+    top:500px;
+    left: 200px;
+}
+.paint5 {
+    position: absolute;
+    top:550px;
+    left: 550px;
+}
+.paint6 {
+    position: absolute;
+    top:510px;
+    left: 900px;
+}
+.paint7 {
+    position: absolute;
+    top:880px;
+    left: 200px;
+    padding-bottom: 50px;
+}
+.paint8 {
+    position: absolute;
+    top:900px;
+    left: 550px;
+    
+}
+.paint9 {
+    position: absolute;
+    top:750px;
+    left:900px;
+    
+    
+}
+.paint10 {
+    position: absolute;
+    top:1100px;
+    left:200px;
+    padding-bottom:50px;
+}
+.paint11 {
+    position: absolute;
+    top: 1250px;
+    left:200px;
+    padding-bottom:50px;
+}
+.paint12 {
+    position: absolute;
+    top: 1150px;
+    left:550px;
+    padding-bottom:50px;
+}
+.paint13 {
+    position: absolute;
+    top: 1150px;
+    left:900px;
+    padding-bottom:50px;
+}
+.tab {
+  overflow: hidden;
+  position: absolute;
+  top: 150px;
+  left: 800px;
+}
+.r1 {
+    position: absolute;
+    top: 200px;
+    left: 190px;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
